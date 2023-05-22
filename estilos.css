@@ -69,7 +69,7 @@ a {
 /* ESTILOS CONTENIDO MAIN Y OTROS */
 
 main {
-    min-height: calc(96% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
+    min-height: calc(97% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
     padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
     background-color: rgb(34, 34, 82);
     background-size: cover;
@@ -204,7 +204,7 @@ footer {
 }
 
 .main-productos {
-    min-height: calc(96% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
+    min-height: calc(97% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
     padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
     background-color: rgb(34, 34, 82);
     background-size: cover;
