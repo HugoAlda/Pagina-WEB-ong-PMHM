@@ -82,7 +82,7 @@ main {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.776); /* Ajusta el color de fondo del elemento main según tus necesidades */
+    background-color: rgba(230, 218, 90, 0.89);
     border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
@@ -99,7 +99,7 @@ main {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.776); /* Ajusta el color de fondo del elemento main según tus necesidades */
+    background-color: rgba(230, 218, 90, 0.89); /* Ajusta el color de fondo del elemento main según tus necesidades */
     border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
