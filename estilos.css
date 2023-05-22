@@ -55,13 +55,6 @@ nav .ul1 li a.active, nav .ul1 li a:hover {
     border-radius: 10px;
 }
 
-.neon-border {
-    border: 2px solid transparent;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 70px blue, 0 0 80px blue, 0 0 100px blue, 0 0 150px blue;
-}
-
 .banner-img {
     height: 100%; /* Ajusta la altura de la imagen para ocupar toda la barra de navegación */
     max-width: 100%; /* Ajusta el ancho de la imagen para mantener la proporción */
@@ -89,7 +82,7 @@ main {
     color: white;
     text-align: center;
     background-color: rgba(230, 218, 90, 0.776); /* Ajusta el color de fondo del elemento main según tus necesidades */
-    border: 2px solid blue  ;
+    border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
     height: 100%;
