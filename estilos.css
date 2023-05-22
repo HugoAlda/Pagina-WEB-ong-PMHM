@@ -88,19 +88,28 @@ main {
     height: 100%;
 }
 
+.titulo1 {
+    padding-bottom: 15px;
+}
+
+/* ESTILOS quienessomos.html */
+
+main {
+    min-height: calc(96% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
+    padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
+    background-color: rgb(34, 34, 82);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
 .section2 {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.776); /* Ajusta el color de fondo del elemento main según tus necesidades */
-    border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
     height: 100%;
-}
-
-.titulo1 {
-    padding-bottom: 15px;
 }
 
 /* ESTILOS FOOTER */
