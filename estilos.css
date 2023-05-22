@@ -95,16 +95,6 @@ main {
 
 /* ESTILOS quienessomos.html */
 
-main {
-    min-height: calc(96% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
-    padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
-    background-color: rgba(230, 218, 90, 0.776);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-image: url(./img/fondo.jpg);
-}
-
 .section2 {
     padding: 30px;
     color: white;
