@@ -223,38 +223,3 @@ footer {
     width: 100%;
     background-image: url(./img/fondo.jpg);
 }
-  
-.carousel {
-    color: black;
-}
-  
-.product-list {
-    color: black;
-}
-  
-.footer-productos {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.carousel-container {
-    flex: 1;
-    max-width: calc(33.33% - 20px);
-    margin-right: 20px;
-}
-
-main img {
-    max-width: 30%;
-}
-
-main a {
-    text-decoration: none;
-}
