@@ -38,14 +38,13 @@ nav .ul1 {
   
 nav .ul1 li {
     display: inline-block;
-    margin: 0 10px;
     margin-right: 60px;
 }
   
 nav .ul1 li a {
     color: white;
     font-size: 16px;
-    padding: 7px 13px;
+    padding: 5px 10px;
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
