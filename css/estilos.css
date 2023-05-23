@@ -186,6 +186,14 @@ i {
     font-size: 200%;
 }
 
+/* ESTILOS productos.html */
+
+.carrousel {
+    max-height: 600px; /* Ajusta el tamaño máximo de altura de la imagen */
+    max-width: 600px;
+    padding-bottom: 17px;
+}
+
 /* ESTILOS FOOTER */
 
 footer {
