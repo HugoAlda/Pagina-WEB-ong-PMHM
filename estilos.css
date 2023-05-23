@@ -66,6 +66,10 @@ a {
     color: white;
 }
 
+li {
+    text-decoration: none;
+}
+
 /* ESTILOS CONTENIDO MAIN Y OTROS */
 
 main {
