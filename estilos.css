@@ -10,8 +10,16 @@ html, body {
     height: 100%;
 }
 
+main {
+    background-color: rgb(34, 34, 82);
+}
+
+html {
+    background-color: rgb(34, 34, 82);
+}
+
 /* ESTILOS BARRA DE NAVEGACIÓN */
-  
+ 
 nav {
     background-color: #333;
     color: white;
@@ -21,6 +29,7 @@ nav {
     align-items: center;
     z-index: 999;
     position: fixed;
+    padding-top: 15px;
 }
   
 nav .enlace {
@@ -28,7 +37,7 @@ nav .enlace {
     align-items: center;
     margin-right: auto; /* Alinea la imagen a la izquierda del todo */
     padding-left: 20px; /* Ajusta el espacio entre la imagen y los elementos de la lista */
-    width: 12%;
+    width: 14%;
 }
 
 nav .ul1 {
@@ -67,18 +76,16 @@ nav .ul1 li a.active, nav .ul1 li a:hover {
 main {
     min-height: calc(97% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
     padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
-    background-color: rgb(34, 34, 82);
     background-size: cover;
     background-position: center;
     width: 100%;
-    background-image: url(./img/fondo.jpg);
 }
 
 .section1 {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.89);
+    background-color:  rgba(237, 230, 149, 0.938);
     border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
@@ -89,13 +96,13 @@ main {
     padding-bottom: 15px;
 }
 
-/* ESTILOS quienessomos.html */
+/* ESTILOS nosotros.html */
 
 .section2 {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.938); /* Ajusta el color de fondo del elemento main según tus necesidades */
+    background-color: rgba(237, 230, 149, 0.938); /* Ajusta el color de fondo del elemento main según tus necesidades */
     border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
@@ -115,7 +122,15 @@ main {
 }
 
 main img {
-    width: 10%;
+    width: 20%;
+    border: 2px solid #333;
+    background-color: #333;
+    border-radius: 45px;
+}
+
+div iframe {
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 /* ESTILOS FOOTER */
@@ -181,45 +196,4 @@ footer {
 
 .footer-bottom p {
     margin: 0;
-}
-
-/* ESTILOS productos.html */
-  
-.header-productos {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-  
-.header-productos h1 {
-    margin: 0;
-}
-  
-.search-form {
-    margin-top: 20px;
-    align-items: center;
-}
-  
-.search-form input {
-    padding: 10px;
-    font-size: 16px;
-}
-  
-.search-form button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.main-productos {
-    min-height: calc(97% - 100px); /* Ajusta el valor (100px) para que coincida con la suma de las alturas del encabezado y el pie de página */
-    padding-top: 119px; /* Ajusta el relleno (padding) según tus necesidades */
-    background-color: rgb(34, 34, 82);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-image: url(./img/fondo.jpg);
 }
