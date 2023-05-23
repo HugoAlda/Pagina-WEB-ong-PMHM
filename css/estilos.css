@@ -67,7 +67,7 @@ nav .ul1 li a.active, nav .ul1 li a:hover {
 
 .banner-img {
     height: 100%; /* Ajusta la altura de la imagen para ocupar toda la barra de navegación */
-    max-width: 100%; /* Ajusta el ancho de la imagen para mantener la proporción */
+    max-width: 65%; /* Ajusta el ancho de la imagen para mantener la proporción */
     margin-right: 10px; /* Añade un margen derecho entre la imagen y los elementos de la lista */
 }
 
@@ -191,7 +191,7 @@ i {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 30px 0;
+    padding: 30px;
     text-align: justify;
 }
 
@@ -201,7 +201,7 @@ footer {
 
 .footer-content {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -209,7 +209,7 @@ footer {
   
 .footer-column {
     width: 30%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
   
 .footer-column h3 {
