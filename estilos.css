@@ -47,6 +47,7 @@ nav .ul1 li a {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
 }
   
 nav .ul1 li a.active, nav .ul1 li a:hover {
@@ -59,15 +60,6 @@ nav .ul1 li a.active, nav .ul1 li a:hover {
     height: 100%; /* Ajusta la altura de la imagen para ocupar toda la barra de navegación */
     max-width: 100%; /* Ajusta el ancho de la imagen para mantener la proporción */
     margin-right: 10px; /* Añade un margen derecho entre la imagen y los elementos de la lista */
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-li {
-    text-decoration: none;
 }
 
 /* ESTILOS CONTENIDO MAIN Y OTROS */
@@ -103,11 +95,23 @@ main {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgba(230, 218, 90, 0.89); /* Ajusta el color de fondo del elemento main según tus necesidades */
+    background-color: rgba(230, 218, 90, 0.938); /* Ajusta el color de fondo del elemento main según tus necesidades */
     border: 2px solid black ;
     border-radius: 20px;
     margin: 50px;
     height: 100%;
+}
+
+.column1 {
+    display: flex;
+}
+
+.column2 {
+    flex-wrap: wrap;
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 /* ESTILOS FOOTER */
@@ -154,7 +158,6 @@ footer {
   
 .footer-column ul li a {
     color: white;
-    text-decoration: none;
 }
   
 .social-media li {
