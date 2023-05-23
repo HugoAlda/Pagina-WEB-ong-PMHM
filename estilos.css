@@ -49,7 +49,7 @@ nav .ul1 li {
     display: inline-block;
     margin-right: 60px;
 }
-  
+
 nav .ul1 li a {
     color: white;
     font-size: 16px;
@@ -111,6 +111,19 @@ main {
 
 .column1 {
     display: flex;
+}
+
+.titulo3 {
+    margin: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.justify {
+    margin: 5px;
+    color: black;
 }
 
 .column2 {
