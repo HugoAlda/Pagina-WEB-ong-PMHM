@@ -154,7 +154,28 @@ div iframe {
 
 /* ESTILOS contacto.html*/
 
+.column1-contacto {
+    display: flex;
+}
 
+.column2-contacto {
+    flex-wrap: wrap;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section3 {
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color:  rgba(237, 230, 149, 0.938);
+    border: 2px solid black ;
+    border-radius: 20px;
+    margin: 50px;
+    height: 100%;
+}
 
 /* ESTILOS FOOTER */
 
