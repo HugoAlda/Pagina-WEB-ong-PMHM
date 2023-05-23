@@ -150,7 +150,9 @@ div iframe {
 
 /* ESTILOS metodosdepago.html */
 
-
+.money {
+    font-size: 35px;
+}
 
 /* ESTILOS contacto.html*/
 
