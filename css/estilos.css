@@ -177,6 +177,15 @@ div iframe {
     height: 100%;
 }
 
+.titulo4 {
+    text-align: center;
+    color: black;
+}
+
+i {
+    font-size: 200%;
+}
+
 /* ESTILOS FOOTER */
 
 footer {
