@@ -30,7 +30,7 @@ nav .enlace {
     padding-left: 20px; /* Ajusta el espacio entre la imagen y los elementos de la lista */
     width: 12%;
 }
-  
+
 nav .ul1 {
     display: flex;
     align-items: center;
@@ -38,7 +38,8 @@ nav .ul1 {
   
 nav .ul1 li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 10px;
+    margin-right: 60px;
 }
   
 nav .ul1 li a {
@@ -112,6 +113,10 @@ main {
     float: left;
     padding: 10px;
     box-sizing: border-box;
+}
+
+main img {
+    width: 10%;
 }
 
 /* ESTILOS FOOTER */
