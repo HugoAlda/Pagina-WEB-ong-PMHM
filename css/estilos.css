@@ -58,13 +58,19 @@ nav .ul1 li a {
     text-transform: uppercase;
     text-decoration: none;
 }
-  
+
+.fondo a.active, a:hover{
+    background: blue;
+    transition: .5s;
+    border-radius: 10px;
+}
+/*
 nav .ul1 li a.active, nav .ul1 li a:hover {
     background: blue;
     transition: .5s;
     border-radius: 10px;
 }
-
+*/
 .banner-img {
     height: 100%; /* Ajusta la altura de la imagen para ocupar toda la barra de navegación */
     max-width: 80%; /* Ajusta el ancho de la imagen para mantener la proporción */
