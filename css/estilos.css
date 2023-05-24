@@ -67,7 +67,7 @@ nav .ul1 li a.active, nav .ul1 li a:hover {
 
 .banner-img {
     height: 100%; /* Ajusta la altura de la imagen para ocupar toda la barra de navegación */
-    max-width: 65%; /* Ajusta el ancho de la imagen para mantener la proporción */
+    max-width: 80%; /* Ajusta el ancho de la imagen para mantener la proporción */
     margin-right: 10px; /* Añade un margen derecho entre la imagen y los elementos de la lista */
 }
 
