@@ -197,6 +197,10 @@ i {
     color: black;
 }
 
+.img-carrousel {
+    width: 100%;
+}
+
 /* ESTILOS FOOTER */
 
 footer {
