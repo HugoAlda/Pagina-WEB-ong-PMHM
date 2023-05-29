@@ -278,7 +278,7 @@ footer {
   }
 
   .banner-img {
-    max-width: 100%;
+    max-width: 300%;
   }
 
   .section1 {
@@ -288,17 +288,5 @@ footer {
   .titulo1 {
     font-size: 20px;
     margin-bottom: 5px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-  }
-
-  .footer-column {
-    margin: 10px 0;
-  }
-
-  .footer-column.titulo-footer {
-    margin-top: 10px;
   }
 }
