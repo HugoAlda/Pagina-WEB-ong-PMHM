@@ -109,6 +109,7 @@ main {
 
 .column1 {
     display: flex;
+    clear: both;
 }
 
 .titulo3 {
@@ -127,11 +128,13 @@ main {
 }
 
 .column2 {
+    display: flex;
     flex-wrap: wrap;
     width: 33.33%;
     float: left;
-    padding: 5%;
+
     box-sizing: border-box;
+    clear: both;
 }
 
 main img {
@@ -159,11 +162,8 @@ div iframe {
 }
 
 .column2-contacto {
-    flex-wrap: wrap;
     width: 50%;
     float: left;
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 .section3 {
@@ -297,9 +297,15 @@ footer {
     width: 100%;
     padding: 5%;
   }
-  .column2 {
-    width: 50%;
 
+  .column2{
+    width: 50%;
+  }
+
+  .section2 {
+    color: black;
+    text-align: center;
+    height: 100%;
 }
 
 }
