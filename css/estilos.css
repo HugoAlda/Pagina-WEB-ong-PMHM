@@ -264,3 +264,41 @@ footer {
 .footer-bottom p {
     margin: 0;
 } 
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  ul.ul1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul.ul1 li {
+    margin-bottom: 10px;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .section1 {
+    margin-bottom: 10px;
+  }
+
+  .titulo1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin: 10px 0;
+  }
+
+  .footer-column.titulo-footer {
+    margin-top: 10px;
+  }
+}
