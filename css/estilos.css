@@ -130,7 +130,7 @@ main {
     flex-wrap: wrap;
     width: 33.33%;
     float: left;
-    padding: 10px;
+    padding: 5%;
     box-sizing: border-box;
 }
 
@@ -264,6 +264,9 @@ footer {
 .footer-bottom p {
     margin: 0;
 } 
+.iframe2 {
+    width: 80% ;
+}
 
 /* Responsive */
 
@@ -294,4 +297,9 @@ footer {
     width: 100%;
     padding: 5%;
   }
+  .column2 {
+    width: 50%;
+
+}
+
 }
